@@ -1,0 +1,28 @@
+# Local operating system and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local credentials and Databricks state
+.env
+.env.*
+!.env.example
+.databrickscfg
+.databricks/
+
+# Local Spark output and datasets
+spark-warehouse/
+metastore_db/
+derby.log
+data/
+
+# Databricks export metadata
+manifest.mf
