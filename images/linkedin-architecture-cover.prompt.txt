@@ -1,0 +1,11 @@
+Generated using the built-in image_gen tool.
+
+Create a polished landscape LinkedIn post cover with an architecture comparison, based on these two reference diagrams. Input image 1 is the modern Databricks architecture; image 2 is the legacy baseline. Use them as factual architecture references, redesign freely for an attractive cover, do not paste the screenshots.
+
+Use case: infographic-diagram / social post cover. Wide 16:9 composition, very legible mobile typography, professional editorial tech design. White/off-white background, dark navy type, Databricks red highlights. Large headline at top exactly "From Legacy ETL to Databricks". Short subtitle "My e-commerce data engineering journey".
+
+Two distinct horizontal architecture lanes below headline, clearly separated:
+Top lane heading "LEGACY ARCHITECTURE", flow "Relational DB" → "Python" → "S3" → "ETL" → "Redshift" → "BI". At ETL use a grouped cluster of THREE SMALL PARALLEL service icons with small labels "Lambda", "Glue", "EC2", explicitly not sequential. S3 → ETL cluster → Redshift is a simplified logical processing flow, not a direct service-to-service connection. Use recognizable database, Python, S3 bucket, AWS and chart icons, clear fine arrows.
+Bottom lane heading "DATABRICKS LAKEHOUSE", flow "CSV volume" → "BRONZE" → "SILVER" → "GOLD" → "Analytics". This is the implemented notebook pipeline. Bronze copper with caption "Raw + metadata". Silver slate with caption "Clean + standardize". Gold golden yellow with caption "Dimensions + facts". Three layer nodes are inside one subtle Databricks boundary bearing a recognizable red Databricks stack logo and label "Databricks". Beneath all three layers a shared short strip "PySpark + SQL · Delta Lake · Unity Catalog".
+Small tasteful footer "Learning project · CSV → Bronze → Silver → Gold". Avoid claiming a production migration, performance gains or cost savings. Legacy lane is conceptual comparison, modern lane starts from CSV volume (no false claim actual DB extraction built).
+Visual goal: high quality LinkedIn cover, readable architecture at a glance, generous whitespace, consistent icons, grid aligned, no crossed arrows, no fine print. All labels exactly spelled, only specified text. No laptop mockup, no photography, no watermark.
